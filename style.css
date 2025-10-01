@@ -1,28 +1,63 @@
-body{
-    background-image: url(images.png) ;
-    display: flex;
-    flex-direction: column;
 
-      
-    }
 h2{
-    color: red;
+    color: white;
+    font-style: normal;
+    
 }
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-#ronaldo{
-    background-color: chocolate;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid 2px black;
-    border-radius: 35px;
-
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    height: 500px;
+body {
+  background-image: url(images.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* centraliza verticalmente */
+  margin: 0;
 }
 
+#ronaldo {
+  background-color: gray;
+  border: solid 2px black;
+  border-radius: 35px;
+  width: 30%;
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+  color: black;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+#cadastrar {
+    margin-top: 15px;
+    background: rgb(12, 185, 12);  
+    color: #ffffff;  
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
