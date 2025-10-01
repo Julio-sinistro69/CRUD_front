@@ -1,0 +1,28 @@
+body{
+    background-image: url(images.png) ;
+    display: flex;
+    flex-direction: column;
+
+      
+    }
+h2{
+    color: red;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#ronaldo{
+    background-color: chocolate;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px black;
+    border-radius: 35px;
+
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
