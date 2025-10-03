@@ -1,0 +1,17 @@
+h1{
+    text-align: left;
+}
+
+body{
+background-image: url(images.png);
+} 
+table {
+    background-color: white;
+    opacity: 1;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }

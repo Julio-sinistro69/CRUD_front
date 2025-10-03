@@ -10,11 +10,11 @@ h2{
     align-items: center;
   }
 body {
-  background-image: url(images.png);
+  
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* centraliza verticalmente */
+  height: 100vh; 
   margin: 0;
 }
 

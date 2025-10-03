@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listar</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Listar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center; /* center everything inside body */
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    table {
+      margin: 0 auto; /* center the table */
+      border-collapse: collapse;
+      background-color: white;
+      width: 80%;
+      max-width: 600px;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #ddd;
+    }
+  </style>
 </head>
-<body> m   
-    
+<body>
+  <h1>Lista de livros cadastrados</h1>
+  
+  <table cellspacing="0" cellpadding="5">
+    <tr>
+      <th>Field</th>
+      <th>Book 1</th>
+      <th>Book 2</th>
+    </tr>
+    <tr>
+      <th>Title</th>
+      <td>The Great Gatsby</td>
+      <td>1984</td>
+    </tr>
+    <tr>
+      <th>Author</th>
+      <td>F. Scott Fitzgerald</td>
+      <td>George Orwell</td>
+    </tr>
+    <tr>
+      <th>Year</th>
+      <td>1925</td>
+      <td>1949</td>
+    </tr>
+    <tr>
+      <th>Genre</th>
+      <td>Fiction</td>
+      <td>Dystopian</td>
+    </tr>
+  </table>
 </body>
 </html>
