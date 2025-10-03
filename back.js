@@ -48,6 +48,7 @@ db.run(`CREATE TABLE IF NOT EXISTS livros(
       gênero,
       idioma,
       Preço
+     
     })
     )
 });
